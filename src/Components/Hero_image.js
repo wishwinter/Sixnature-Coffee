@@ -4,6 +4,10 @@ import 'swiper/css';
 // import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { v4 as uuidv4 } from 'uuid';
+import Equipment from "../images/Group 14098.png"
+import Ingredients from "../images/iStock-944081986.png"
+import Fixing from "../images/iStock-1300538486.png"
+
 
 
 
@@ -12,14 +16,15 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const data =[
   {
     id: uuidv4(),
-    soure:'https://sixnaturecoffee.com/backoffice/media/media-62b0506015e69.jpg'},
-  {
-    id: uuidv4(),
-    soure: 'https://sixnaturecoffee.com/backoffice/media/media-62b050670a51f.jpg'
+    soure: Equipment
   },
   {
     id: uuidv4(),
-    soure: 'https://sixnaturecoffee.com/backoffice/media/media-62b050bf9c003.jpg'
+    soure: Ingredients 
+  },
+  {
+    id: uuidv4(),
+    soure:  Fixing 
   },
 ]
 function Hero_image() {
